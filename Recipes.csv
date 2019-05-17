@@ -1,0 +1,57 @@
+recipe_code,recipe_descr,recipe_type,recipe_type_descr,ingr_code,ingr_descr,ingr_fraction,ingr_fraction_type,ingr_fraction_type_descr
+9001,"Rice-parboiled, handpounded",1,Standard,9,RICE PARBOILED HANDPOUNDED,0.32029271,2,Grams fraction
+9002,Aloo bandhgobhi,1,Standard,122,ONION BIG,0.049171566,2,Grams fraction
+9002,Aloo bandhgobhi,1,Standard,224,GARLIC DRY,0.013094602,2,Grams fraction
+9002,Aloo bandhgobhi,1,Standard,66,CABBAGE,0.295296633,2,Grams fraction
+9002,Aloo bandhgobhi,1,Standard,125,POTATO,0.548369856,2,Grams fraction
+9002,Aloo bandhgobhi,1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.030732229,2,Grams fraction
+9002,Aloo bandhgobhi,1,Standard,306,TOMATO RIPE,0.065473009,2,Grams fraction
+9003,Aloo baingan,1,Standard,125,POTATO,0.499652053,2,Grams fraction
+9003,Aloo baingan,1,Standard,142,BRINJAL,0.437717467,2,Grams fraction
+9003,Aloo baingan,1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.030967293,2,Grams fraction
+9003,Aloo baingan,1,Standard,224,GARLIC DRY,0.005567154,2,Grams fraction
+9003,Aloo baingan,1,Standard,206,MUSTARD SEEDS,0.005219207,2,Grams fraction
+9003,Aloo baingan,1,Standard,306,TOMATO RIPE,0.073068894,2,Grams fraction
+9005,Masur ki daal,1,Standard,38,LENTIL,0.088407924,2,Grams fraction
+9005,Masur ki daal,1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.015774028,2,Grams fraction
+9006,Aloo ki bhujiya,1,Standard,125,POTATO,1.484187568,2,Grams fraction
+9006,Aloo ki bhujiya,1,Standard,122,ONION BIG,0.241003272,2,Grams fraction
+9006,Aloo ki bhujiya,1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.113413304,2,Grams fraction
+9007,Palak aloo,1,Standard,110,SPINACH,0.28393051,2,Grams fraction
+9007,Palak aloo,1,Standard,125,POTATO,0.354505972,2,Grams fraction
+9007,Palak aloo,1,Standard,122,ONION BIG,0.058631922,2,Grams fraction
+9007,Palak aloo,1,Standard,224,GARLIC DRY,0.011400651,2,Grams fraction
+9007,Palak aloo,1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.041802389,2,Grams fraction
+9008,RICE PARBOILED MILLED,1,Standard,10,RICE PARBOILED MILLED,0.318717277,2,Grams fraction
+9009,Aloo phoolgobhi,1,Standard,125,POTATO,0.390243902,2,Grams fraction
+9009,Aloo phoolgobhi,1,Standard,144,CAULIFLOWER,0.217232733,2,Grams fraction
+9009,Aloo phoolgobhi,1,Standard,306,TOMATO RIPE,0.047412811,2,Grams fraction
+9009,Aloo phoolgobhi,1,Standard,122,ONION BIG (including non edible part),0.049464326,2,Grams fraction
+9009,Aloo phoolgobhi,1,Standard,224,GARLIC DRY(including non edible part),0.014816503,2,Grams fraction
+9009,Aloo phoolgobhi,1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.02940506,2,Grams fraction
+9009,Aloo phoolgobhi,1,Standard,40,PEAS GREEN,0.044221564,2,Grams fraction
+9010,Aloo sem,1,Standard,143,BROAD BEANS,0.265413534,2,Grams fraction
+9010,Aloo sem,1,Standard,125,POTATO,0.422556391,2,Grams fraction
+9010,Aloo sem,1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.038345865,2,Grams fraction
+9010,Aloo sem,1,Standard,224,GARLIC DRY,0.015037594,2,Grams fraction
+9010,Aloo sem,1,Standard,306,TOMATO RIPE,0.118796992,2,Grams fraction
+9011,pumpkin,1,Standard,178,PUMPKIN FRUIT,1.839153439,2,Grams fraction
+9011,pumpkin,1,Standard,441,JAGGERY CANE,0.17989418,2,Grams fraction
+9011,pumpkin,1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.026455026,2,Grams fraction
+9012,Aloo chokha,1,Standard,125,POTATO,1.049898167,2,Grams fraction
+9012,Aloo chokha,1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.089613035,2,Grams fraction
+9013,Tomato chutney,1,Standard,306,TOMATO RIPE,1.63422292,2,Grams fraction
+9013,Tomato chutney,1,Standard,441,JAGGERY CANE,0.127158556,2,Grams fraction
+9013,Tomato chutney,1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.039246468,2,Grams fraction
+9016,"Fish curry, rohu",1,Standard,377,Rohu,1.019498607,2,Grams fraction
+9017,"Fish curry, curry",1,Standard,306,TOMATO RIPE,0.178010471,2,Grams fraction
+9017,"Fish curry, curry",1,Standard,225,GINGER FRESH,0.011343805,2,Grams fraction
+9017,"Fish curry, curry",1,Standard,224,GARLIC DRY,0.029668412,2,Grams fraction
+9017,"Fish curry, curry",1,Standard,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.248691099,2,Grams fraction
+9021,Chane ki daal,2,Modified Standard Recipe,38,LENTIL,0.088407924,2,Grams fraction
+9021,Chane ki daal,2,Modified Standard Recipe,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.015774028,2,Grams fraction
+9022,Arhar ki daal,2,Modified Standard Recipe,38,LENTIL,0.088407924,2,Grams fraction
+9022,Arhar ki daal,2,Modified Standard Recipe,438,"COOKING OIL GROUNDNUT,GINGELLY,PALMOLEIN,MUSTARD,COCONUT",0.015774028,2,Grams fraction
+9023,Fish curry-katla,2,Modified Standard Recipe,347,KATLA,1.019498607,2,Grams fraction
+9024,Fish curry-Mangoor,2,Modified Standard Recipe,356,MAGUR,1.019498607,2,Grams fraction
+9029,Fish curry-singhi,2,Modified Standard Recipe,385,SINGHI,1.019498607,2,Grams fraction
