@@ -10,7 +10,7 @@ normalised_weights = [i/100 for i in weights]
 fct_numbers = [174, 13, 14, 73, 84]
 conv_numbers = [431, 431, 431, 431, 431]
 
-output = [['RICE RAW MILLED', 431.5, 68.5, 1725.0, 34.0, 2.5, 391.0, 20.0, 47.5, 3.15, 6.175, 0.0, 0.22499999999999998, 0.27, 9.025, 0.0, 24.0, 0.0, 24.0, 24.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+output = []
 for i in range(len(weights)):
 
 =======
@@ -22,8 +22,7 @@ for i in range(len(weights)):
 
     output_value = normalised_weights[i]*conv_row_np*fct_row_np
     output_value = np.append(fct_row["C_DESCR"], output_value)
-    print(output_value)
-    output = np.append(output, [output_value], axis = 0)
+    output.append(output_value)
 
 print(output)
 print(pd.DataFrame(output))
