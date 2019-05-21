@@ -16,13 +16,10 @@ conv_row_np = np.array(conv_row)[0][2:]
 
 output_values = weight*conv_row_np*fct_row_np
 output = np.append(fct_row["C_DESCR"], output_values)
-print(output)
-
-output = pd.DataFrame(output)
+#print(output)
 
 print(output)
 
 var = list(fct.head(1))
+#print(var)
 
-for i in var:
-    print(i)
