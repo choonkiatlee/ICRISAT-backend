@@ -1,0 +1,50 @@
+{
+   "id":"3affb0c0-5970-11e9-be6a-b3b9c2e6389a",
+   "interviewData":{
+      "householdIdentification":"b hc",
+      "respondent":{
+         "id":null,
+         "name":"ydyd",
+         "telephone":"sydu",
+         "employeeNumber":null
+      },
+      "sensitizationVisitDate":"null",
+      "dayCode":null,
+      "interviewStart":"2019-05-21 13:37:44.135350",
+      "interviewEnd":"2019-05-21 13:53:29.399169",
+      "interviewOutcome":0,
+      "incompleteInterviewReason":""
+   },
+   "listOfFoods":[
+      {
+         "foodName":"aloo gobi",
+         "timeOfDay":0,
+         "foodDescription":"djdjd",
+         "formWhenEaten":0,
+         "foodSource":0,
+         "fctNo":134,
+         "rCode":7,
+         "foodWeight":100,
+      },
+      {
+         "foodName":"paneer masala",
+         "timeOfDay":0,
+         "foodDescription":"djdjd",
+         "formWhenEaten":0,
+         "foodSource":0,
+         "fctNo":134,
+         "rCode":7,
+         "foodWeight":100,
+      },
+      {
+         "foodName":"aloo gobi",
+         "timeOfDay":0,
+         "foodDescription":"djdjd",
+         "formWhenEaten":0,
+         "foodSource":0,
+         "fctNo":134,
+         "rCode":7,
+         "foodWeight":100,
+      },
+   ]
+}

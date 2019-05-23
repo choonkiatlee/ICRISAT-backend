@@ -1,27 +1,46 @@
 import pandas as pd
 import numpy as np
+import json
 
-fct = pd.read_csv('Fct.csv', encoding='utf-8')
-conv = pd.read_csv('RetentionFactors.csv', encoding='utf-8')
+#Function with JSON dictionary as the input
+def add_data_to_spreadsheet(data):
+    #Data files required
+    fct = pd.read_csv('Fct.csv', encoding='utf-8')
+    conv = pd.read_csv('RetentionFactors.csv', encoding='utf-8')
+    test_output = pd.read_csv('test_output2.csv', encoding='utf-8')
 
-weights = [100, 200, 300, 400, 500]
-normalised_weights = [i/100 for i in weights]
-fct_numbers = [174, 13, 14, 73, 84]
-conv_numbers = [431, 431, 431, 431, 431]
+    fct_numbers = [food_item["fctNo"] for food_item in data["listOfFoods"]]
+    conv_numbers = [food_item["rCode"] for food_item in data["listOfFoods"]]
+    weights = [food_item["foodWeight"]/100 for food_item in data["listOfFoods"]]
+    data_header = [data["interviewData"]["respondent"]["name"], data["interviewData"]["respondent"]["telephone"], "M"]
 
-output = [['RICE RAW MILLED', 431.5, 68.5, 1725.0, 34.0, 2.5, 391.0, 20.0, 47.5, 3.15, 6.175, 0.0, 0.22499999999999998, 0.27, 9.025, 0.0, 24.0, 0.0, 24.0, 24.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
-for i in range(len(weights)):
+    #individual_matrix is used to calculate total micro and macro nutrients intake
+    individual_matrix = []
 
-    fct_row = fct[fct["C_CODE"] == fct_numbers[i]]
-    fct_row_np = np.array(fct_row)[0][3:]
+    #Calculates the whole input data
+    for i in range(len(weights)):
+        fct_row = fct[fct["C_CODE"] == fct_numbers[i]]
+        fct_row_np = np.array(fct_row)[0][3:]
 
-    conv_row = conv[conv["R_Code"]==conv_numbers[i]]
-    conv_row_np = np.array(conv_row)[0][2:]
+        conv_row = conv[conv["R_Code"]==conv_numbers[i]]
+        conv_row_np = np.array(conv_row)[0][2:]
 
-    output_value = normalised_weights[i]*conv_row_np*fct_row_np
-    output_value = np.append(fct_row["C_DESCR"], output_value)
-    print(output_value)
-    output = np.append(output, [output_value], axis = 0)
+        output_value = weights[i]*conv_row_np*fct_row_np
+        individual_matrix.append(output_value)
 
-print(output)
-print(pd.DataFrame(output))
+    #This gives us the total consumption of one person
+    ind_data = sum(individual_matrix)
+    ind_data = np.concatenate((data_header,ind_data))
+
+    #Columns need to have the same column headers to append to each other
+    columns = conv.head(1)
+    del columns['R_Code']
+    del columns['R_Descr']
+    header = ["Name", "Age", "Gender"]
+    ind_data_pd = (pd.DataFrame(ind_data)).T
+    ind_data_pd.columns = header + list(columns)
+
+    test_output = test_output.append(ind_data_pd, ignore_index=True)
+    test_output.to_csv('test_output2.csv', index=False)
+
+    print(test_output)
